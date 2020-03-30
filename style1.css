@@ -1,0 +1,128 @@
+html{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+/*header style*/
+
+.container{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.jumbotron{
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	border-radius: .3rem;
+}
+
+.jumbotron{
+	background-image: url(123.png);
+	background-size: cover;
+	position: relative;
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
+
+/*media header*/
+
+@media (min-width: 576px){
+	.jumbotron {
+    	padding: 4rem 2rem;
+	}
+}
+
+@media (min-width: 1200px){
+	.container{
+		    max-width: 1140px;
+	}
+}
+
+@media (min-width: 992px){
+	.container{
+		    max-width: 960px;
+	}
+}
+
+@media (min-width: 768px){
+	.container{
+		    max-width: 720px;
+	}
+}
+
+/*@media (min-width: 576px){
+	.container{
+		    max-width: 540px;
+	}
+}
+*/
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.bg-light {
+    background-color: #4a7a96db!important;
+    border: 3px solid lightseagreen;
+}
+
+.carousel-innere {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-left: auto;
+    margin-left: 42%;
+    margin-top: 2%;
+
+}
+
+a.spec {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a.spec :hover {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
